@@ -1,7 +1,6 @@
 {graphics:lg,} = love
 
 import Love from require "framework.core"
-import ScneeNode from require "framework.scene_tree"
 
 require "framework.tools.fps_counter"
 
