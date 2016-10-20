@@ -2,7 +2,10 @@
 
 import Love from require "framework.core"
 
+
 require "framework.tools.fps_counter"
+
+
 
 Love\connect "load", (args) ->
 
