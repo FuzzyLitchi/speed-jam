@@ -50,3 +50,9 @@ class Map extends Object
 
     field_empty: (x, y) =>
         (0 == @\get_field x, y)
+
+{
+    :Map,
+    :MapNode,
+    :GRID_SIZE,
+}
