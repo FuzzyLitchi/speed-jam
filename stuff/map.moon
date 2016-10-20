@@ -50,3 +50,11 @@ class Map extends Object
 
     field_empty: (x, y) =>
         (0 == @\get_field x, y)
+
+    draw_map: =>
+      for x = 1, @w
+        for y = 1, @h
+          if (x+y)%2==0
+            --draw black
+          else
+            --draw white
