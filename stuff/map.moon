@@ -58,3 +58,7 @@ class Map extends Object
             --draw black
           else
             --draw white
+    
+    :Map,
+    :MapNode,
+    :GRID_SIZE,
